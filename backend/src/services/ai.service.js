@@ -8,7 +8,6 @@ const ai = new GoogleGenAI({
 });
 
 async function getReviewService(code) {
-  console.log("Generating content... for code:", code);
   const response = await ai.models.generateContent({
     model: "gemini-2.5-flash",
     contents: code,
