@@ -1,4 +1,4 @@
-# code-reviewer-ai-mern
+# Code Reviewer AI with Gemini
 
 Gemini based code reviewer with Node and React
 
